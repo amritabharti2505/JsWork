@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body onload="startTime()">
+<!-- 1. Sum of two number -->
+    <h1>sum of two number</h1>
+    <p>enter the first number:<input type="text" id="first"></p>
+    <p>enter the second number:<input type="text" id="second"></p>
+    <button onclick="add()">Add</button>
+    <p>sum:<input id="ans"></p> 
+<!--2. reversing string -->
+    <h1>Reversing a string</h1>
+    <p>enter string to reverse it:<input type="text" id="string"></p>
+    <button id="button">Reverse</button>
+    <p>reversed string :<input type="text" id="reverse"></p> 
+<!--3. clock -->
+    <h1 >clock</h1>
+    <table class="clockbox">
+        <tr>
+            <th id="hour" class="clock"></th>
+            <th>:</th>
+            <th id="min" class="clock"></th>
+            <th>:</th>
+            <th id="sec" class="clock"></th>
+            
+        </tr>
+    </table>
+<!--4. random quote genrator -->
+    <h1>Random Quote Generator</h1>
+    <div class="container">
+        <div class="col">
+            Random Quote Generator
+            <div><button id="btn">Generate Quote</button></div>
+            <div id="quoteSection"></div>
+        </div>
+    </div>
+<!--5. stopwatch -->
+   <h1>StopWatch Timer</h1>
+    <div class="box">
+        <div class="col1">STOP WATCH
+            <div>
+                <button id="start">Start</button>
+                <button id="stop">Stop</button>
+                <button id="reset">Reset</button>
+            </div>
+            <table class="watchbox" >
+                <tr >
+                    <th id="hours" class="watch">00</th>
+                    <th>:</th>
+                    <th id="minutes" class="watch">00</th>
+                    <th>:</th>
+                    <th id="seconds" class="watch">00</th>
+                    
+                    
+                </tr>
+            </table>
+        
+        </div>
+    </div>
+
+<!--6. js form validation -->
+<h1>JavaScript Form Validation</h1>
+<div class="container">
+    <div class="col">
+        <form>
+            <h2>Sign Up</h2>
+            <div>Enter Your Name:<input type="text" placeholder="user Name" class="personal-details" id="user" required></div>
+            <spam id="error"></spam>
+            <div>Enter Your Email:<input type="text" placeholder="email" class="personal-details" id="emailid" required></div>
+            <spam id="error"></spam>
+            <div>Create Password:<input id= "password" class="personal-details" required></div>
+            <spam id="error"></spam>
+            <div>Confirm Password:<input id= "confirm" class="personal-details" required></div>
+            <spam id="error"></spam>
+            <button  onclick="ValidateEmail()"type="button" id="submit">submit</button>
+        </form>
+        
+    </div>
+</div>
+
+<!--7. Guess the Number -->
+<h1>Guess the Number</h1>
+<div class="container" style="background-color: rgb(180, 100, 167);">
+    <div class="col1" style="background-color: rgb(115, 115, 172);">
+       <p style="font-family: cursive; font-size: 200%;"> Guess the number kids?</p> 
+<input type="text" id="guess"></input>
+<button id="check">check</button>
+<div id="result" style="margin-top: 5%;font-family: cursive;"></div>
+</div>
+</div>
+</body>
+<script src="project.js"></script>
+</html>
+
+<!--8. Whack-a-mole game -->
+<h1>Whack a mole game</h1>
+<div class="gameBox" id="mario">
+      <h1>Whack-a-mole game</h1>
+      <h2 id="score" class="score">0</h2>
+     <div id="soil">
+        <div  class="1"><img src="../monty-mole.png" id="id1"></div> 
+        <div  class="2"><img src="../monty-mole.png" id="id2"></div> 
+        <div  class="3"><img src="../monty-mole.png" id="id3"></div> 
+        <div  class="4"><img src="../monty-mole.png" id="id4"></div> 
+        <div  class="5"><img src="../monty-mole.png" id="id5"></div> 
+        <div  class="6"><img src="../monty-mole.png" id="id6"></div> 
+        <div  class="7"><img src="../monty-mole.png" id="id7"></div> 
+        <div  class="8"><img src="../monty-mole.png" id="id8"></div> 
+        <div  class="9"><img src="../monty-mole.png" id="id9"></div> 
+    
+    </div> 
+
+</div>

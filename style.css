@@ -1,0 +1,130 @@
+.clockbox{
+    border: 1px solid black;
+    background-color: red;
+    padding: 2%;
+}
+.clock{
+    border: 1px solid black;
+    background-color:yellow;
+}
+th{
+    font-size: 340%;   
+}
+.container{
+    background-color: rgb(73, 73, 145);
+    width: 600px;
+    padding: 50px 40px;
+    border-radius: 5px;
+    box-shadow: 20px 20px 40px rgba(97,63,0,0.4); 
+
+}
+.col{
+    border:3% solid rgb(42, 42, 131);
+    padding:3%;
+    background-color: rgb(195, 193, 206);
+    text-align: center;
+}
+#btn{
+    background-color: white;
+    border-style: none;
+    padding:2%;
+    margin-top:1%;
+}
+#quoteSection{
+border: 2px solid rgb(142, 142, 187);
+background-color:  rgb(142, 142, 187);
+padding: 3%;
+margin: 3%;
+}
+.box{
+    width:400px;
+}
+.watchbox{
+    background-color: rgb(111, 100, 156);
+    margin-left: 20%;
+    padding: 2%;
+    margin-top: 2%;
+    
+}
+.watch{
+    background-color:rgb(167, 167, 202);
+    width:30px;
+    height: 30px;
+}
+
+.col1{
+    border:3% solid rgb(42, 42, 131);
+    padding:3%;
+    background-color: rgb(195, 193, 206);
+    text-align: center;
+}
+.personal-details{
+    border-style: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    margin-top: 3%;
+    font-size:15px ;
+}
+#error{
+    color: red;
+}
+
+#mario{
+    background: url("./MARIOBG.JPG");
+    background-size: cover;
+    width:100%;
+    text-align:center ;
+}
+
+#soil{
+    background: url("./soil.png");
+    background-size: cover;
+    width:43%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+
+}
+#soil div{
+    width: 180px;
+    height: 180px;
+    background-image: url(./pipe.png);
+    background-size: cover;
+    position: sticky;
+    
+    
+    
+}
+#soil div img{
+    height: 54%;
+    width: 38%;
+    position: relative;
+    top:250px
+    
+    
+    
+}
+.animate{ 
+    animation:up 2s linear infinite;
+}
+/* .animate{
+    
+    animation-duration: 3s;
+    animation-name: up;
+    animation-iteration-count: 20;
+    
+}  */
+@keyframes up {
+    0%{
+        top:250px;
+    }
+    50%{
+        top:200px;
+    }
+    100%{
+        top:250px;
+    }
+    
+}
